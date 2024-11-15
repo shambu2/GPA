@@ -32,84 +32,95 @@ function App() {
   // parse
 
   return (
-    <div className="flex flex-col">
-      <div>
-        <div>
-          <label htmlFor="">ADA</label>
+    <div  className="  min-h-dvh bg-indigo-200 ">
+      <h1 className="text-center text-4xl text-blue-800 underline font-bold ">Check your CGPA</h1>
+      <div className=" items-center top-1/3 gap-y-10 text-black font-bold  " >
+        <div className="flex  flex-row justify-around pt-10">
+          <label htmlFor="" className="" >ADA</label>
           <input
-            type="text"
+            type="text" 
+            className="rounded  pl-6 h-8 bg-slate-400"
             onChange={(e) => {
               setAda(e.target.value);
             }}
           />
         </div>
-        <div>
+        <div className="flex flex-row justify-around pt-10">
           <label htmlFor="">GT</label>
           <input
             type="text"
+            className="rounded h-8 pl-6 bg-slate-400 "
             onChange={(e) => {
               setGT(e.target.value);
             }}
           />
         </div>
-        <div>
+        <div className="flex flex-row justify-around pt-10">
           <label htmlFor="">MC</label>
           <input
             type="text"
+            className="rounded h-8 pl-6 bg-slate-400"
             onChange={(e) => {
               setMc(e.target.value);
             }}
           />
         </div>
-        <div>
+        <div className="flex flex-row justify-around pt-10">
           <label htmlFor="">DBMS</label>
           <input
             type="text"
+            className="rounded h-8 pl-6 bg-slate-400"
             onChange={(e) => {
               setDbms(e.target.value);
             }}
           />
         </div>
-        <div>
+        <div className="flex flex-row justify-around pt-10">
           <label htmlFor="">Biology</label>
           <input
             type="text"
+            className="rounded h-8 pl-6 bg-slate-400"
             onChange={(e) => {
               setBio(e.target.value);
             }}
           />
         </div>
-        <div>
+        <div className="flex flex-row justify-around pt-10">
           <label htmlFor="">ADA Lab</label>
           <input
             type="text"
+            className="rounded h-8 pl-6 bg-slate-400"
             onChange={(e) => {
               setAdaLab(e.target.value);
             }}
           />
         </div>
-        <div>
+        <div className="flex flex-row justify-around pt-10">
           <label htmlFor="">Latex</label>
           <input
             type="text"
+            className="rounded h-8 pl-6 bg-slate-400"
             onChange={(e) => {
               setLatex(e.target.value);
             }}
           />
         </div>
-        <div>
+        <div className="flex  flex-row justify-around pt-10">
           <label htmlFor="">UHV</label>
           <input
             type="text"
+            className="rounded h-8 pl-6 bg-slate-400"
             onChange={(e) => {
               setUhv(e.target.value);
             }}
           />
         </div>
       </div>
-      <button onClick={() => setCgpa(cgpaFinal)}>submit</button>
-      <div>
-        <p>{cgpa.toPrecision(2)}</p>
+      <div className="text-center my-8 ">
+      <button className="bg-blue-500 py-4 rounded-xl px-14" onClick={() => setCgpa(cgpaFinal)}>submit</button>
+      </div>
+      <div className=" ">
+        <p className="text-center border-2 text-2xl font-bold  text-blue-500">YOUR CGPA = {cgpa}</p>
       </div>
       
 
