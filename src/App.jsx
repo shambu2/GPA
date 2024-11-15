@@ -29,7 +29,7 @@ function App() {
   const oneGpa = ((adalabNum + 1)*1) + ((latexNum + 1)*1) + ((uhvNum +1)*1);
   const totalGpaNum = fourGpa + threeGpa + twoGpa +oneGpa ;
   const cgpaFinal = ((totalGpaNum/190)*10)
-  
+  // parse
 
   return (
     <div className="flex flex-col">
@@ -109,7 +109,7 @@ function App() {
       </div>
       <button onClick={() => setCgpa(cgpaFinal)}>submit</button>
       <div>
-        <p>{cgpa.toFixed(2)}</p>
+        <p>{cgpa.toPrecision(2)}</p>
       </div>
       
 
