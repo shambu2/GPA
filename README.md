@@ -1,8 +1,7 @@
-# React + Vite
+# CGPA Calculator for vtu 4th sem(22scheme)
+it is application built with reactjs and tailwindcss to calculate the cgpa of 4th sem the subject's which different credit system different subject it calculate cgpa of all subject's by evalvating the given marks.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# how setup project
+- firstly clone the repo locally by using `git clone https://github.com/shambu2/GPA.git`
+- secondly install all dependencies by `npm install`
+- last step is run `npm run dev`
