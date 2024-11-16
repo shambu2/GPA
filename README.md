@@ -3,7 +3,7 @@ it is application built with reactjs and tailwindcss to calculate the cgpa of 4t
 
 # demo 
 - https://cgpacalculator2.netlify.app/
-![Demo image](/public/shambulinga.png)
+![Demo image](/public/demoImage.png)
 
 # how setup project
 - firstly clone the repo locally by using `git clone https://github.com/shambu2/GPA.git`
